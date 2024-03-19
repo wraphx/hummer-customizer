@@ -27,7 +27,39 @@ export const CustomizationProvider = (props) => {
       
       };
 
+      const carColors = [
+        {
+            color: "#828282",
+            name: 'grey',
+        },
+        {
+            color: "#ff1100",
+            name: 'red',
+        },
+        {
+            color: "#0008ff",
+            name: 'blue',
+        },
+        {
+            color: "#d400ff",
+            name: 'purple',
+        },
+        {
+            color: "#ff78cb",
+            name: 'pink',
+        },
+        {
+            color: "#fffb00",
+            name: 'yellow',
+        },
+        {
+            color: "#02ab13",
+            name: 'green',
+        },
+      ]
+
     const [overlay, setOverlay] = useState(1)
+    const [carColor, setCarColor] = useState(carColors[0])
     const state = proxy({
         current: null,
         main: { ...materialsMap },
@@ -43,6 +75,8 @@ export const CustomizationProvider = (props) => {
                 setOverlay,
                 state,
                 snap,
+                carColor,
+                setCarColor,
             }}
         >
             {props.children}
