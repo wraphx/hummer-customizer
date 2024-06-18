@@ -16,7 +16,7 @@ export default function App() {
         <Canvas shadows camera={{ position: [0, 0, 20], fov:40 }}>
           <color attach="background" args={['grey']} />
           <Suspense fallback={null}>
-          <Hummer scale={0.5} position={[0, -1.1, 0]} />
+          <Hummer scale={2.3} position={[0, -1.1, 0]} />
           </Suspense>
           <hemisphereLight intensity={0.5} />
           <ContactShadows resolution={1024} frames={1} position={[0, -1.16, 0]} scale={15} blur={0.5} opacity={0.5} far={20} />
