@@ -4,7 +4,7 @@ import { ContactShadows, Environment, Lightformer, OrbitControls, Loader } from 
 
 import { CustomizationProvider } from "./context/Customization"
 import Configurator from "./components/Configurator";
-import { Hummer } from "./vehicles/Hummer";
+import { Hummer } from "./vehicles/HummerOG";
 
 export default function App() {
 

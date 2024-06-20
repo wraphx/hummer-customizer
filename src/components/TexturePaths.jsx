@@ -45,7 +45,7 @@ var TexturePaths = [
     },
     {
         overlay: 12,
-        path: "textures/ShapeShifter Base Color.png"
+        path: "textures/ShapeShifter.001 Base Color.png"
     },
     {
         overlay: 13,
@@ -81,7 +81,7 @@ var TexturePaths = [
     },
     {
         overlay: 21,
-        path: "textures/Linearock Base Color.png"
+        path: "textures/Linearock Base Color.001.png"
     },
     {
         overlay: 22,
