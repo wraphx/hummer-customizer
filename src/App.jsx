@@ -4,7 +4,7 @@ import { ContactShadows, Environment, Lightformer, OrbitControls, Loader } from 
 
 import { CustomizationProvider } from "./context/Customization"
 import Configurator from "./components/Configurator";
-import { Hummer } from "./vehicles/HummerOG";
+import { Hummer } from "./vehicles/Hummer";
 
 export default function App() {
 
@@ -49,7 +49,7 @@ export default function App() {
           </Environment>
           <ContactShadows position={[0, -0.8, 0.0]} opacity={0.75} scale={10} blur={2.5} far={0.8} />
           {/* <OrbitControls minPolarAngle={Math.PI / 2} maxPolarAngle={Math.PI / 2} enableZoom={true} enablePan={false} /> */}
-          <OrbitControls    enablePan={false} enableZoom={true} minPolarAngle={Math.PI / 2.8} maxPolarAngle={Math.PI / 2.1} />
+          <OrbitControls   autoRotate={true} enablePan={false} enableZoom={true} minPolarAngle={Math.PI / 2.8} maxPolarAngle={Math.PI / 2.1} />
         </Canvas>
         <Configurator />
       </div>
