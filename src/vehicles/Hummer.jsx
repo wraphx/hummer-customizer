@@ -292,7 +292,7 @@ console.log()
       <mesh geometry={nodes.black_shiny_bump_05_black_shiny_bump_0.geometry} material={materials.black_shiny_bump} />
       <mesh geometry={nodes.black_shiny_bump_06_black_shiny_bump_0.geometry} material={materials.black_shiny_bump} />
       <mesh geometry={nodes.Body.geometry}>
-        <meshStandardMaterial {...materials.BaseMtl} color={overlay==1 || overlay==13 ? (snap1.base.BaseMtl!=="none" ? snap1.base.BaseMtl : 0xffffff) : 0xffffff}>
+        <meshStandardMaterial {...materials.BaseMtl} color={overlay==1 || overlay==13 || overlay==34 ? (snap1.base.BaseMtl!=="none" ? snap1.base.BaseMtl : 0xffffff) : 0xffffff}>
           <canvasTexture
             flipY={false}
             wrapS={1000}
